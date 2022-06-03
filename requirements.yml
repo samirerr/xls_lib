@@ -1,0 +1,4 @@
+- name: open_excel
+  src: https://github.com/mohameosam/open_excel.git
+  scm: 'git'
+  version: master

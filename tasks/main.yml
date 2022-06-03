@@ -1,0 +1,10 @@
+---
+- name: Write facts to spreadsheet
+  xls_write:
+    path: ./
+    workbook: "{{src_file}}"
+    worksheet: "{{sheet_name}}" 
+    data: "{{ data_list }}"
+    create: yes
+    headers: "{{head}}"
+    create_header: no

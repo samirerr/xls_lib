@@ -1,0 +1,8 @@
+---
+create_head: True
+sheet_name: "test1"
+dest: "./home"
+src_file: "sample.xlsx"
+create : True
+head: ["hostname","os_version","ip_adresse"]
+data_list: [{'hostname':'pc1','ip_adresse':'192.168.1.1','os_version':'centos'},{'ip_adresse':'192.168.1.2','hostname':'pc2','os_version':'ubuntu'}]
